@@ -44,7 +44,8 @@ export const Navbar = () => {
                     <span className='nav-item nav-link text-primary'>
                         Byron
                     </span>
-                    <button className='nav-item nav-link btn'>
+                    <button className='nav-item nav-link btn'
+                    onClick={onLogout}>
                         Logout
                     </button>
                 </ul>
